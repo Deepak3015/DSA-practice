@@ -2,6 +2,10 @@
 using namespace std;
 
  int main(){
-  cout << "hello world";
+  int age ;
+  cout << "Enter the age:";
+  cin >> age;
+
+  cout << "your age is :"<<age<<endl;
   return 0;
  }
