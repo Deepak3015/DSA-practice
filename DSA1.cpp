@@ -2,10 +2,9 @@
 using namespace std;
 
  int main(){
-  int age ;
-  cout << "Enter the age:";
-  cin >> age;
-
-  cout << "your age is :"<<age<<endl;
+  int a =2;
+  int b = 4;
+  cout <<"Sum :" << (a+b) <<endl;
+  cout <<"difference :" << (a-b) <<endl; 
   return 0;
  }
