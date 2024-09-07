@@ -1,21 +1,36 @@
 #include <iostream>
 using namespace std;
-
-
-int main (){
-     int n =4;
-     int number = 1;
-     for (int i = 1;i<=n;i++)
-     {
-          for (int j = 1;j<=n;j++)
-          {
-               cout << number<<"";
-               number++;
-          }
-          cout<<endl;
-     }
-     return 0;
+int main ()
+{
+  int n =4;
+  for (int i =1;i<=n;i++)
+  {
+    for (int j = 0;j<i;j++)
+    {
+      cout<<i;
+    }
+  cout<<endl;
+  }
+  return 0;
 }
+
+
+
+
+// int main (){
+//      int n =4;
+//      char number = 'A';
+//      for (int i = 1;i<=n;i++)
+//      {
+//           for (int j = 1;j<=n;j++)
+//           {
+//                cout << number<<" ";
+//                number++;
+//           }
+//           cout<<endl;
+//      }
+//      return 0;
+// }
 
 // int main (){
 //      for (int i=1;i<=5;i++){
